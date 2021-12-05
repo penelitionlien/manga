@@ -17,6 +17,8 @@
                       
                       <div class="post-content" itemprop="articleBody">
                         {{ content }}
+			{% include blogpost.html %}
+                        {% include jsonfile.html id=page.blogId %}
                         <i>Joost van der Schee</i><br />
                         <br />
                         {% include share-buttons.html %}
